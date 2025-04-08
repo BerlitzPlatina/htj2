@@ -1,4 +1,4 @@
-package com.rei.authapi.configs;
+package com.rei.configs;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

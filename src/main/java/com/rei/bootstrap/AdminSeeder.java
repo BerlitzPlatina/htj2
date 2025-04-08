@@ -1,4 +1,4 @@
-package com.rei.authapi.bootstrap;
+package com.rei.bootstrap;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;

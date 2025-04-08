@@ -1,4 +1,4 @@
-package com.rei.authapi.exceptions;
+package com.rei.exceptions;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.security.SignatureException;

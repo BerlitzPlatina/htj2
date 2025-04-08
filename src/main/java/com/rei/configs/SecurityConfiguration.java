@@ -1,4 +1,4 @@
-package com.rei.authapi.configs;
+package com.rei.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
