@@ -9,10 +9,9 @@ services:
       POSTGRES_PASSWORD: root
       POSTGRES_DB: genealogy
     volumes:
-      - postgres_data:/var/lib/postgresql@16/data
-      - ./init:/docker-entrypoint-initdb.d/
+      - /media/rei/volume/postgres_data:/var/lib/postgresql/data
     ports:
-      - "5432:5432"
+      - '5432:5432'
 
 volumes:
   postgres_data:
